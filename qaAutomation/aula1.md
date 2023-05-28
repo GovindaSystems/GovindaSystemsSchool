@@ -7,6 +7,7 @@ Nesta aula, os alunos serão apresentados aos conceitos básicos de testes autom
 * https://demoqa.com/
 * https://automationintesting.online/#/
 * https://todomvc.com/
+* https://www.demoblaze.com/index.html
 
 2 - Definição de casos de testes
 
