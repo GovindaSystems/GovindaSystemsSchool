@@ -13,9 +13,9 @@ Nesta aula, os alunos serão apresentados aos conceitos básicos de testes autom
 
 https://automationintesting.online/#/
 
+
 > Testes de Backend e API REST 🌐
 
 * Enviar uma mensagem (dados válidos e inválidos)
 * Reservar um quarto (dados válidos e inválidos)
 
-3 - Criação de casos de testes
