@@ -4,6 +4,7 @@ Nesta aula, os alunos serão apresentados aos conceitos básicos de testes autom
 
 1 - Presentação da nossa aplicação para testes
 
+* https://www.demoblaze.com/index.html
 * https://demoqa.com/
 * https://automationintesting.online/#/
 * https://todomvc.com/
