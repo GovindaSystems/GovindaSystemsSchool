@@ -1,0 +1,41 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "An example Cypress e2e test project",
+  "author": "brine",
+  "license": "MIT",
+  "keywords": [
+    "cypress",
+    "e2e",
+    "ui",
+    "test",
+    "automation"
+  ],
+  "standard": {
+    "globals": [
+      "cy",
+      "beforeAll",
+      "afterAll",
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
+  },
+  "scripts": {
+    "cy": "cypress",
+    "open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "headless": "npm run cy run -- -q",
+    "home": "npm run cy run -- --spec specs/homePageSpec.js",
+    "pretty": "standard --fix",
+    "ci": "npm run cy run -- -q"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7"
+  },
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "standard": "^16.0.4"
+  }
+}

@@ -8,7 +8,6 @@ Nesta aula, os alunos serão apresentados aos conceitos básicos de testes autom
 * https://demoqa.com/
 * https://automationintesting.online/#/
 * https://todomvc.com/
-* https://www.demoblaze.com/index.html
 
 2 - Definição de casos de testes
 
@@ -105,4 +104,60 @@ sudo snap install insomnia
 Criação de 6 casos de testes para aplicarmos em cypress.
 
 
-## Links úteis
+## Gherkin
+
+Gherkin é uma linguagem que é usada para escrever cenários de teste em um formato legível por humanos. Aqui estão alguns exemplos de casos de teste escritos em Gherkin:
+
+**Exemplo 1: Teste de Login**
+
+```gherkin
+Feature: Login Feature
+  Scenario: Successful Login with Valid Credentials
+    Given User is on Login Page
+    When User enters valid username and password
+    And User clicks on Login button
+    Then User should be redirected to the Home Page
+```
+
+**Exemplo 2: Teste de Pesquisa**
+
+```gherkin
+Feature: Search Feature
+  Scenario: Check search functionality
+    Given User is on Home Page
+    When User enters a valid search term
+    And User clicks on Search button
+    Then User should see a list of search results related to the search term
+```
+
+**Exemplo 3: Teste de Carrinho de Compras**
+
+```gherkin
+Feature: Shopping Cart Feature
+  Scenario: Add item to shopping cart
+    Given User is on Home Page
+    When User selects an item
+    And User clicks on Add to Cart button
+    Then The item should be added to the shopping cart
+
+Funcionalidade: Funcionalidade do Carrinho de Compras
+  Cenário: Adicionar item ao carrinho de compras
+    O usuário fornecido está na página inicial
+    Quando o usuário seleciona um item
+    E o usuário clica no botão Adicionar ao carrinho
+    Em seguida, o item deve ser adicionado ao carrinho de compras
+```
+
+**Exemplo 4: Teste de Checkout**
+
+```gherkin
+Feature: Checkout Feature
+  Scenario: Successful Checkout
+    Given User has items in the shopping cart
+    When User goes to the checkout page
+    And User enters valid payment information
+    And User clicks on Purchase button
+    Then User should receive a confirmation message
+```
+
+Cada um desses exemplos começa com uma "Feature" que descreve a funcionalidade que está sendo testada. Cada "Scenario" representa um caso de teste único. "Given" descreve as pré-condições, "When" descreve as ações que o usuário executa, e "Then" descreve o resultado esperado. "And" é usado para adicionar múltiplas condições ou ações.
