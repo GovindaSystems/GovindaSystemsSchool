@@ -1,0 +1,18 @@
+{
+    "course" : {
+        "name" : "",
+        "desc" : "",
+        "price": 0,
+        "modules" : [
+            { 
+                "name" : "",
+                "desc" : "",
+                "git_repo" : "http://github.com/repo"
+            }
+        ],
+    "user" : {
+        "name" : "",
+        "role" : CLIENT | SELLER | OWNER
+    }
+    
+}
